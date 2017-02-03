@@ -1,34 +1,77 @@
 <!DOCTYPE html>
 
 <head>
-
+<link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet">
 <style>
 body {
   font-family: helvetica, sans-serif;
+  margin: 0 auto;
   max-width: 600px;
+  background-color: #232323;
 }
 div {
   height: 200px;
-  background: url(firstcourse.jpg);
-  margin: 0 auto;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,04));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+.first{
+  background-image: url("firstcourse.jpg");
+}
+.second{
+  background-image: url("secondcourse.jpg");
+}
+.dessert{
+  background-image: url("dessertcourse.jpg");
+}
+.price {
+  float: right;
+}
+h1 {
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 75px;
+  text-align: center;
+  margin: 60px 0 0 0;
+  color: #aaaaaa;
+}
+h2 {
+  text-align: center;
+  margin: 0 0 70px 0;
+  color: #bbbbbb;
 }
 </style>
 
 </head>
 
 <body>
-<div class="first">
 <h1>esha's restaurant</h1>
-
-<h2>welsh onion soko $14</h2>
-<p>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </p>
+<h2>A New York City Eatery</h2>
+<div class="first">
+<p>welsh onion soko <span class="price">$14</span><br />
+<small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
 </div>
 <div class="second">
-<h2>pastrami boudin tongue $22</h2>
-<p>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</p>
+<p>pastrami boudin tongue <span class="price">$22</span><br />
+<small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
 </div>
 <div class="dessert">
-<h2>fruitcake marzipan pudding dragee $8</h2>
-<p>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</p>
+<p>fruitcake marzipan pudding dragee <span class="price">$8</span><br />
+<small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
 </div>
 </body>
