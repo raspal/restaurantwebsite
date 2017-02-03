@@ -35,6 +35,15 @@ p {
 .dessert{
   background-image: url("dessertcourse.jpg");
 }
+.pizza{
+  background-image: url("pizzacourse.jpg");
+}
+.upma{
+  background-image: url("upmacourse.jpg");
+}
+.sandwich{
+  background-image: url("sandwichcourse.jpg");
+}
 .price {
   float: right;
 }
