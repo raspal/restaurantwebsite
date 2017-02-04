@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+<script src="/assets/jquery.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet">
 <link rel="stylesheet" href="restaurantwebsite.css">
 </head>
@@ -31,4 +32,9 @@
 <p>sandwich marzipan pudding dragee <span class="price">$16</span><br />
 <small>Beetroot water spinach okra water chestnut ricebean pea catsear courgette summer purslane. Water spinach arugula pea tatsoi aubergine spring onion bush tomato.</small></p>
 </div>
+<script>
+  $('div').on('click', function() {
+    $(this).toggleClass('show-description');
+    });
+</script>
 </body>
